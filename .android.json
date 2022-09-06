@@ -1,0 +1,18 @@
+{
+	"layout": null,
+	"orientation": "sensorLandscape",
+	"package": "com.agenstvoklounov.simphony",
+	"include_pil": false,
+	"expansion": false,
+	"name": "\u0421\u0438\u043c\u0444\u043e\u043d\u0438\u044f \u0421\u043c\u0435\u0440\u0442\u0438",
+	"update_always": true,
+	"source": false,
+	"icon_name": "\u0421\u0438\u043c\u0444\u043e\u043d\u0438\u044f",
+	"version": "0.0.1",
+	"heap_size": "3",
+	"update_icons": true,
+	"permissions": ["VIBRATE", "INTERNET"],
+	"numeric_version": 1,
+	"include_sqlite": false,
+	"store": "all"
+}

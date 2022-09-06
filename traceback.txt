@@ -1,0 +1,28 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 207, in script
+    if astma:
+  File "game/script.rpy", line 207, in <module>
+    if astma:
+NameError: name 'astma' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 207, in script
+    if astma:
+  File "/Users/ArtemTodor/Desktop/renpy-7.4.11-sdk/renpy/ast.py", line 1898, in execute
+    if renpy.python.py_eval(condition):
+  File "/Users/ArtemTodor/Desktop/renpy-7.4.11-sdk/renpy/python.py", line 2276, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "/Users/ArtemTodor/Desktop/renpy-7.4.11-sdk/renpy/python.py", line 2269, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 207, in <module>
+    if astma:
+NameError: name 'astma' is not defined
+
+Darwin-20.6.0-x86_64-i386-64bit
+Ren'Py 7.4.11.2266
+Симфония Смерти 0.0.2
+Mon Jun 20 16:40:51 2022
